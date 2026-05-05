@@ -6,6 +6,6 @@ variable "aws_region" {
 
 variable "budget_amount" {
   type        = string
-  default     = "10.0" # Keeps it tiny so we don't accidentally spend money
+  default     = "10.0" 
   description = "Monthly dollar budget limit for tracking"
 }
