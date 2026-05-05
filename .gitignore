@@ -1,0 +1,10 @@
+# Next.js build files & dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Terraform state & secrets
+terraform/.terraform/
+terraform/*.tfstate*
+terraform/crash.log
+.DS_Store
